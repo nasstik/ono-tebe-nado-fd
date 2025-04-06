@@ -141,6 +141,8 @@
     margin-left: 24px;
     margin-right: 24px;
     position: relative;
+    margin-bottom: 120px;
+    display: flex;
     
    
 
@@ -225,6 +227,33 @@
 }
 
 .about {
+    margin-top: 173px;
     margin-right: 24px;
     margin-left: 24px;
+    display: grid;
+    grid-template-columns:334px 1fr;
+    column-gap: 72px;
+}
+.about__logo {
+   width: 240px;
+   height: 240px;
+   border-radius: 50%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.about__logo-image {
+   width: 148px;
+   height: 114px;
+
+}
+.about__title {
+   margin-top: 120px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 100%;
+   text-transform: uppercase;
 }
