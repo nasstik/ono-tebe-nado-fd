@@ -4,7 +4,7 @@
   align-items: center;
   padding-left: 50px;
   padding-top: 96px;
-  padding-bottom: 94px;
+  padding-bottom: 93px;
   padding-right: 50px;
 }
 
@@ -260,6 +260,7 @@
   margin-top: 181px;
   margin-left: 51px;
   margin-right: 50px;
+  padding-bottom: 82px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
